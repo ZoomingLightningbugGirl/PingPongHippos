@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=4 uid="uid://dl50xk5d16uqr"]
+[gd_scene load_steps=3 format=4 uid="uid://dl50xk5d16uqr"]
 
 [ext_resource type="Texture2D" uid="uid://05cf6jj0aql3" path="res://ExtraFiles/PrototypeSprite.png" id="1_nqa2s"]
+[ext_resource type="Script" uid="uid://dkn5uabjkpgnx" path="res://ExtraFiles/sprite_2d.gd" id="2_48b64"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -10,3 +11,4 @@ tile_map_data = PackedByteArray("AAAEAAcAAAAAAAAAAAALAAMAAAAAAAAAAAAMAAoAAAAAAAA
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(240, 229)
 texture = ExtResource("1_nqa2s")
+script = ExtResource("2_48b64")

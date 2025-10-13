@@ -1,3 +1,4 @@
 extends Node
-func run():
-	print("Hello World!")
+func _ready():
+	print("hello world")
+	return
