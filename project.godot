@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="StrawberryShortcake"
-run/main_scene="uid://dl50xk5d16uqr"
-config/features=PackedStringArray("4.5", "GL Compatibility")
+run/main_scene="res://ExtraFiles/node_2d.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [input]

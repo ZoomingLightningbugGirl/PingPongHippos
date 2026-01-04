@@ -1,14 +1,16 @@
 [gd_scene load_steps=3 format=4 uid="uid://dl50xk5d16uqr"]
 
 [ext_resource type="Texture2D" uid="uid://05cf6jj0aql3" path="res://ExtraFiles/PrototypeSprite.png" id="1_nqa2s"]
-[ext_resource type="Script" uid="uid://dkn5uabjkpgnx" path="res://ExtraFiles/sprite_2d.gd" id="2_48b64"]
+
+[sub_resource type="TileSet" id="TileSet_mdnja"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(531, -280)
 tile_map_data = PackedByteArray("AAAEAAcAAAAAAAAAAAALAAMAAAAAAAAAAAAMAAoAAAAAAAAAAAAbAAYAAAAAAAAAAAAUAA0AAAAAAAAAAAAsAAgAAAAFAAQAAAAjAAsAAAAFAAQAAAA/AAUAAAAFAAQAAAAjAAMAAAAFAAQAAAA5AA0AAAAFAAQAAAA=")
+tile_set = SubResource("TileSet_mdnja")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(240, 229)
+position = Vector2(242, 229)
 texture = ExtResource("1_nqa2s")
-script = ExtResource("2_48b64")
